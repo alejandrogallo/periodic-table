@@ -54,11 +54,14 @@
 \begin{tikzpicture}[scale=0.6, transform shape, rotate=90]
 
 \tikzstyle{Element} = [draw=black, minimum width=2.4cm, minimum height=2.4cm, node distance=2.4cm, inner sep=0pt]
+\tikzstyle{Offsetter} = [draw=white, minimum width=2.4cm, minimum height=2.4cm, node distance=2.4cm, inner sep=0pt]
 \tikzstyle{TitleLabel} = [font={\Huge\bfseries}]
 \tikzstyle{DetailsLabel} = [minimum height = 2.5cm, node distance = 2.5cm, inner sep=0pt]
 
 %% Group 1 - IA
-  \node[name=H, Element] {\NaturalElementTextFormat{1}{1.00794}{H}{Hydrogen}};
+  \node[name=Blank1, Offsetter] {}; % this is just an invisible box that shoves the entire table downward to make it more centered
+  \node[name=Blank2, below of=Blank1, Offsetter] {}; % see comment on invisible box above.
+  \node[name=H,below of=Blank2, Element] {\NaturalElementTextFormat{1}{1.00794}{H}{Hydrogen}};
   \node[name=Li, below of=H, Element] {\NaturalElementTextFormat{3}{6.941}{Li}{Lithium}};
   \node[name=Na, below of=Li, Element] {\NaturalElementTextFormat{11}{22.98976928(2)}{Na}{Sodium}};
   \node[name=K, below of=Na, Element] {\NaturalElementTextFormat{19}{39.0983(1)}{K}{Potassium}};
@@ -221,6 +224,6 @@ d  \node[name=AcLr, below of=LaLu, Element] {\NaturalElementTextFormat{89-103}{}
 \node at (H.west -| Fe.north) [name=diagramTitle, TitleLabel]
 {Periodic Table of the Elements};
 
-\node[below of=Np, name=details, DetailsLabel]{Standard atomic masses taken from Comission on Isotopic Abundances and Atomic Weights (http://www.ciaaw.org/atomic-weights.htm). \\ Adapted from Ivan Griffin's \LaTeX\space Periodic Table. \textcopyright\space \the\year};
+\node[below of=Np, name=details, DetailsLabel]{Standard atomic masses taken from Comission on Isotopic Abundances and Atomic Weights (http://www.ciaaw.org/atomic-weights.htm). \\ Adapted from Ivan Griffin's \LaTeX\space Periodic Table. \textcopyright\space \the\year\space Paul Danese};
 \end{tikzpicture}
 \end{document}
