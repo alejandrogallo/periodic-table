@@ -35,7 +35,7 @@
 
 
 \begin{document}
-\pagenumbering{gobble}
+\pagenumbering{gobble} % suppress page numbering here
 \newcommand{\NaturalElementTextFormat}[4]
 {
   \begin{minipage}{2.3cm}
@@ -81,8 +81,8 @@
 %% Group 3 - IIIB
   \node[name=Sc, right of=Ca, Element] {\NaturalElementTextFormat{21}{44.955908(5)}{Sc}{Scandium}};
   \node[name=Y, below of=Sc, Element] {\NaturalElementTextFormat{39}{88.90584(2)}{Y}{Yttrium}};
-  \node[name=LaLu, below of=Y, Element] {\NaturalElementTextFormat{57-71}{}{}{Lanthanides}};
-d  \node[name=AcLr, below of=LaLu, Element] {\NaturalElementTextFormat{89-103}{}{}{Actinides}};
+  \node[name=LaLu, below of=Y, Element] {\NaturalElementTextFormat{57-71}{}{*}{Lanthanides}};
+d  \node[name=AcLr, below of=LaLu, Element] {\NaturalElementTextFormat{89-103}{}{**}{Actinides}};
 
 %% Group 4 - IVB
   \node[name=Ti, right of=Sc, Element] {\NaturalElementTextFormat{22}{47.867(1)}{Ti}{Titanium}};
@@ -221,10 +221,12 @@ d  \node[name=AcLr, below of=LaLu, Element] {\NaturalElementTextFormat{89-103}{}
   \node[name=Md, right of=Fm, Element] {\NaturalElementTextFormat{101}{(258)}{Md}{Mendelevium}};
   \node[name=No, right of=Md, Element] {\NaturalElementTextFormat{102}{(259)}{No}{Nobelium}};
   \node[name=Lr, right of=No, Element] {\NaturalElementTextFormat{103}{(266)}{Lr}{Lawrencium}};
+  \node[name=Star, left of=La, Offsetter, xshift=-0.1cm] {{\textbf{\Huge *}}};
+  \node[name=DoubleStar, below of=Star, Offsetter] {{\textbf{\Huge **}}};
 
-\node at (H.west -| Fe.north) [name=diagramTitle, TitleLabel]
+\node at (Blank2.west -| Fe.north) [name=diagramTitle, TitleLabel]
 {Periodic Table of the Elements};
 
-\node[below of=Np, name=details, DetailsLabel]{Standard atomic masses taken from Commission on Isotopic Abundances and Atomic Weights (\url{http://www.ciaaw.org/atomic-weights.htm}). \\ Adapted from Ivan Griffin's \LaTeX\space Periodic Table. \textcopyright\space \the\year\space Paul Danese};
+\node[below of=Np, name=details, DetailsLabel]{Standard atomic masses taken from Commission on Isotopic Abundances and Atomic Weights (ciaaw.org/atomic-weights.htm). Adapted from Ivan Griffin's \LaTeX\space Periodic Table. \textcopyright\space \the\year\space Paul Danese};
 \end{tikzpicture}
 \end{document}
