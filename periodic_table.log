@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.7)  25 OCT 2015 14:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.7)  25 OCT 2015 23:27
 entering extended mode
 **periodic_table.tex
 (C:\Users\Paul\Documents\GitHub\periodic-table\periodic_table.tex
@@ -678,7 +678,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
 Here is how much of TeX's memory you used:
  17769 strings out of 493921
  353856 string characters out of 3144880
- 511172 words of memory out of 3000000
+ 511176 words of memory out of 3000000
  20800 multiletter control sequences out of 15000+200000
  5458 words of font info for 20 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -689,7 +689,7 @@ Here is how much of TeX's memory you used:
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on periodic_table.pdf (1 page, 95353 bytes).
+Output written on periodic_table.pdf (1 page, 95363 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
