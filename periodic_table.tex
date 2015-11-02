@@ -52,15 +52,17 @@
 	
 	\newcommand{\KeyTextFormat}[6]
 	{
-		\begin{minipage}{2.3cm}
+		\begin{minipage}{3.3cm}
 			\centering
-			{{\tiny \textbf{#1}} \hfill {#2} {#3}}%
-			\\[0.1cm]
-			{\Large \textbf{{#5}}}
+			{{\small \textbf{#1}} \hfill {#2} {#3}}%
+			\\[0.7cm]
+			
+			{\Huge \textbf{{#5}}}
 			\linebreak
 			{#6}
 			\linebreak
 			{\small {#4}} 
+			\linebreak
 		\end{minipage}
 	}
 	\tikzstyle{SBlock} = [fill=white!10]
@@ -70,6 +72,7 @@
 	
 	\begin{tikzpicture}[scale=0.64, transform shape, rotate=90]
 	
+	\tikzstyle{KeyBox} = [draw=black, minimum width=3.4cm, minimum height=3.4cm, node distance=3.4cm, inner sep=0pt]
 	\tikzstyle{Element} = [draw=black, minimum width=2.4cm, minimum height=2.4cm, node distance=2.4cm, inner sep=0pt]
 	\tikzstyle{Offsetter} = [draw=white, minimum width=2.4cm, minimum height=2.4cm, node distance=2.4cm, inner sep=0pt]
 	\tikzstyle{TitleLabel} = [font={\Huge\bfseries}]
@@ -240,11 +243,12 @@
 	\node[name=Star, left of=La, Offsetter, xshift=-0.1cm] {{\textbf{\Huge *}}};
 	\node[name=DoubleStar, below of=Star, Offsetter] {{\textbf{\Huge **}}};
 	
-	\node[name=Key, below of=Fr, Element, yshift=-0.6cm] {\KeyTextFormat{Atomic \#}{subshell}{}{Std. Atomic Weight}{Symbol}{Name}};
+	\node[name=Key, above of=Ti, KeyBox, yshift=0.7cm] {\KeyTextFormat{Atomic \#}{subshell}{}{Std. Atomic Weight}{Symbol}{Name}};
 	
 	\node at (Blank2.west -| Fe.north) [name=diagramTitle, TitleLabel]
 	{Periodic Table of the Elements};
 	
 	\node[below of=Cm, name=details, DetailsLabel]{Standard atomic weights taken from the Commission on Isotopic Abundances and Atomic Weights (ciaaw.org/atomic-weights.htm). Adapted from Ivan Griffin's \LaTeX\space Periodic Table. \textcopyright\space \the\year\space Paul Danese};
+	\node[below of=details, DetailsLabel, yshift=1.6cm]{asterisk (*) next to subshell indicates an anomalous (non-Aufbau) ground state electron configuration};
 	\end{tikzpicture}
 \end{document}
