@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.7)  27 OCT 2015 15:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.7)  2 NOV 2015 10:54
 entering extended mode
 **periodic_table.tex
 (C:\Users\Paul\Documents\GitHub\periodic-table\periodic_table.tex
@@ -650,48 +650,68 @@ LaTeX Info: Redefining \nameref on input line 37.
 (C:\Users\Paul\Documents\GitHub\periodic-table\periodic_table.out)
 \@outlinefile=\write4
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
-Missing character: There is no d in font nullfont!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 245.
+(Font)              <5> on input line 81.
 
+Overfull \hbox (2.38269pt too wide) in paragraph at lines 86--86
+ \OT1/cmr/m/n/9 132.90545196(6) 
+ []
+
+
+Overfull \hbox (2.38269pt too wide) in paragraph at lines 175--175
+ \OT1/cmr/m/n/9 30.973761998(5) 
+ []
+
+
+Overfull \hbox (2.38269pt too wide) in paragraph at lines 190--190
+ \OT1/cmr/m/n/9 18.998403163(6) 
+ []
+
+
+Overfull \hbox (2.34163pt too wide) in paragraph at lines 210--210
+ \OT1/cmr/m/n/10 Praseodymium 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 248.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 248.
  [1
 
 {C:/Users/Paul/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
 
 (C:\Users\Paul\Documents\GitHub\periodic-table\periodic_table.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `periodic_table.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 17769 strings out of 493921
- 353857 string characters out of 3144880
- 511684 words of memory out of 3000000
- 20800 multiletter control sequences out of 15000+200000
- 5458 words of font info for 20 fonts, out of 3000000 for 9000
+ 17781 strings out of 493921
+ 354085 string characters out of 3144880
+ 518306 words of memory out of 3000000
+ 20810 multiletter control sequences out of 15000+200000
+ 6113 words of font info for 22 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,7n,67p,417b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,7n,67p,417b,658s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on periodic_table.pdf (1 page, 95196 bytes).
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx5.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on periodic_table.pdf (1 page, 113991 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
