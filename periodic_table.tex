@@ -45,7 +45,7 @@
 			\\[0.1cm]
 			{\Huge \textbf{{#5}}}
 			\linebreak
-			{\fontsize{9.5}{10}\selectfont {#6} }
+			{\fontsize{9.5}{10.0}\selectfont {#6} }
 			\linebreak
 			{\small {#4}} 
 		\end{minipage}
@@ -64,10 +64,10 @@
 			{\small {#4}} 
 		\end{minipage}
 	}
-	\tikzstyle{SBlock} = [fill=yellow!25]
-	\tikzstyle{PBlock} = [fill=blue!25]
-	\tikzstyle{DBlock} = [fill=red!25]
-	\tikzstyle{FBlock} = [fill=green!25]
+	\tikzstyle{SBlock} = [fill=yellow!10]
+	\tikzstyle{PBlock} = [fill=blue!10]
+	\tikzstyle{DBlock} = [fill=red!10]
+	\tikzstyle{FBlock} = [fill=green!10]
 	
 	\begin{tikzpicture}[scale=0.64, transform shape, rotate=90]
 	
@@ -252,4 +252,5 @@
 	\node[below of=Cm, name=details, DetailsLabel]{Standard atomic weights taken from the Commission on Isotopic Abundances and Atomic Weights (ciaaw.org/atomic-weights.htm). Adapted from Ivan Griffin's \LaTeX\space Periodic Table. \textcopyright\space \the\year\space Paul Danese};
 	\node[below of=details, DetailsLabel, yshift=1.6cm]{An asterisk (*) next to a subshell indicates an anomalous (Aufbau rule-breaking) ground state electron configuration.};
 	\end{tikzpicture}
+
 \end{document}
