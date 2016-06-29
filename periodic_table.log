@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.22)  12 JUN 2016 14:47
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.22)  29 JUN 2016 15:15
 entering extended mode
 **./periodic_table.tex
 (periodic_table.tex
@@ -654,10 +654,6 @@ LaTeX Info: Redefining \nameref on input line 37.
 \@outlinefile=\write4
 \openout4 = `periodic_table.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Requested font "cmbx10" at 10.0pt
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 84.
@@ -667,25 +663,11 @@ Requested font "cmti10" at 10.0pt
 Requested font "cmr17" at 24.88pt
 Requested font "cmbx12" at 24.88pt
 
+
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
 (Font)              size <9> substituted on input line 84.
 
 Requested font "cmr9" at 9.0pt
-
-Overfull \hbox (2.38269pt too wide) in paragraph at lines 89--89
- \OT1/cmr/m/n/9 132.90545196(6) 
- []
-
-
-Overfull \hbox (2.38269pt too wide) in paragraph at lines 178--178
- \OT1/cmr/m/n/9 30.973761998(5) 
- []
-
-
-Overfull \hbox (2.38269pt too wide) in paragraph at lines 193--193
- \OT1/cmr/m/n/9 18.998403163(6) 
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 252.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -714,10 +696,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 20984 strings out of 428721
- 388466 string characters out of 3163014
- 592824 words of memory out of 3000000
- 24105 multiletter control sequences out of 15000+200000
+ 20982 strings out of 428721
+ 388420 string characters out of 3163014
+ 592553 words of memory out of 3000000
+ 24103 multiletter control sequences out of 15000+200000
  5559 words of font info for 20 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  55i,7n,67p,429b,666s stack positions out of 5000i,500n,10000p,200000b,50000s
