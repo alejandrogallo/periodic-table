@@ -1,5 +1,5 @@
 # periodic-table
-Periodic Table of the Elements written in TeX / LaTeX
+#Periodic Table of the Elements written in TeX / LaTeX
 
 
 ## 3 branches with different amounts of information
