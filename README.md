@@ -1,5 +1,7 @@
+[![Build Status](https://travis-ci.org/alejandrogallo/periodic-table.svg?branch=master)](https://travis-ci.org/alejandrogallo/periodic-table)
+
 # periodic-table
-#Periodic Table of the Elements written in TeX / LaTeX
+## Periodic Table of the Elements written in TeX / LaTeX
 
 
 ## 3 branches with different amounts of information
