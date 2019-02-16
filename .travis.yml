@@ -2,12 +2,9 @@ sudo: required
 dist: trusty
 before_install:
 - sudo apt-get -qq update
-- sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra
-  texlive-fonts-extra dvipng texlive-latex-recommended
+- sudo apt-get install -y texlive texlive-base texlive-pictures
 script:
-- mkdir _build
 - pdflatex -interaction=nonstopmode -halt-on-error main.tex
-- cp main.pdf _build/
 deploy:
   provider: releases
   api_key:
